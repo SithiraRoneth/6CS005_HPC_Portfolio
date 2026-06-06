@@ -1,0 +1,32 @@
+Computer systems process data every day.
+Large data files need fast and efficient processing.
+High performance computing helps to reduce processing time.
+A single processor can complete small tasks, but large tasks need parallel execution.
+
+Multithreading is one method used to improve program performance.
+A thread is a small unit of execution inside a program.
+When a program uses many threads, different parts of the program can run at the same time.
+This can make the program faster when the workload is large.
+
+In this task, the program reads a text file and counts words.
+The word count process is divided between several threads.
+Each thread receives a section of words from the input file.
+Dynamic slicing allows threads to take new sections when they finish their current work.
+This helps to balance the workload between all threads.
+
+Shared data must be protected in a multithreaded program.
+If two threads update the same result at the same time, the output may become incorrect.
+A mutex is used to protect shared variables.
+The mutex makes sure that only one thread updates shared data at a time.
+
+The program first stores all words from the file.
+Then each thread counts words in its own local list.
+After counting is complete, the local results are merged into one final result.
+The final result shows each word and its frequency.
+The result is written into a file called result.txt.
+
+Parallel programming is useful in high performance computing.
+Threads, synchronization, dynamic slicing, and file processing are important concepts.
+This input file contains repeated words such as program, thread, threads, data, result, file, computing, and performance.
+These repeated words help to check whether the word occurrence counting program works correctly.
+The final output should show correct frequencies for all repeated words.
