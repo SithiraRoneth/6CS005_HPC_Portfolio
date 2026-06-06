@@ -1,8 +1,5 @@
 # 6CS005 High Performance Computing Assignment
 
-%%writefile 6CS005_HPC_Assignment/README.md
-# 6CS005 High Performance Computing Assignment
-
 # 6CS005 Portfolio – High Performance Computing
 
 ## 📌 Overview
